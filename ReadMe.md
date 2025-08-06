@@ -61,24 +61,43 @@ It integrates advanced natural language processing for semantic search, an in-ho
 
 > Add screenshots of the homepage, search results, admin panel, and user console here.
 > ![AliFi](html/static/1.jpeg)
+>
 > ![AliFi](html/static/2.jpeg)
+> 
 > ![AliFi](html/static/3.jpeg)
+>
 > ![AliFi](html/static/4.jpeg)
+>
 > ![AliFi](html/static/5.jpeg)
+>
 > ![AliFi](html/static/6.jpeg)
+>
 > ![AliFi](html/static/7.jpeg)
+>
 > ![AliFi](html/static/8.jpeg)
+>
 > ![AliFi](html/static/9.jpeg)
+>
 > ![AliFi](html/static/10.jpeg)
+>
 > ![AliFi](html/static/11.jpeg)
+>
 > ![AliFi](html/static/12.jpeg)
+>
 > ![AliFi](html/static/13.jpeg)
+>
 > ![AliFi](html/static/14.jpeg)
+>
 > ![AliFi](html/static/15.jpeg)
+>
 > ![AliFi](html/static/16.jpeg)
+>
 > ![AliFi](html/static/17.jpeg)
+>
 > ![AliFi](html/static/18.jpeg)
+>
 > ![AliFi](html/static/19.jpeg)
+>
 > ![AliFi](html/static/20.jpeg)
 ---
 
