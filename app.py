@@ -483,14 +483,20 @@ def adminlogin():
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Login - AliFi Search Accross The Internet!</title>
+  <title>Login - AliFi Search Across The Internet!</title>
   <link rel="icon" type="image/x-icon" href="/fav">
 </head>
 <body bgcolor="#e6f2ff">
-<br><br><br><br><br><br>
+<br><br><br><br>
   <center>
     <h1 style="color: #003366; font-family: Arial;">Please enter Log In details below:</h1>
-    <br>
+    
+    <div style="margin-top: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffff; width: 50%; border: 2px dashed #3399ff; border-radius: 20px; font-family: Arial; color: #003366;">
+      <h3>🔐 Test Credentials</h3>
+      <p><b>Username:</b> <code style="background-color: #eef; padding: 2px 8px; border-radius: 6px;">Admin</code></p>
+      <p><b>Password:</b> <code style="background-color: #eef; padding: 2px 8px; border-radius: 6px;">ADMIN</code></p>
+    </div>
+
     <form method="POST" action="/admin">
       <input name="adminusername" placeholder="Enter Username" 
         style="width:50%; height:40px; font-size:16px; border:2px solid #3399ff; background-color:white; border-radius:14px; padding:8px;">
@@ -1102,7 +1108,7 @@ def console():
 
 
 
-@app.route("/login")
+@app.route("/login", methods=["GET")
 def login():
   session.clear()
   return"""
@@ -1111,47 +1117,50 @@ def login():
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Login - AliFi Search Accross The Internet!</title>
+  <title>Login - AliFi Search Across The Internet!</title>
   <link rel="icon" type="image/x-icon" href="/fav">
 </head>
 <body bgcolor="#e6f2ff">
 
-
 <table width="100%">
   <tr>
-    <td align="right">
+    <td align="right" style="padding: 10px;">
       <form method="GET" action="/signup" style="display:inline;">
         <input type="submit" value="Sign Up"
-          style="width: 15%; height: 35px; border: 2px solid royalblue; background-color: #05038c; color: white; font-family: calibri; font-size: 16px; font-weight: bold; border-radius: 8px;">
+          style="width: 150px; height: 35px; border: 2px solid royalblue; background-color: #05038c; color: white; font-family: calibri; font-size: 16px; font-weight: bold; border-radius: 8px;">
       </form>
-      <form method="GET" action="/recover-password" style="display:inline;">
+      <form method="GET" action="/recover-password" style="display:inline; margin-left: 10px;">
         <input type="submit" value="Recover Password"
-          style="width: 15%; height: 35px; border: 2px solid royalblue; background-color: #05038c; color: white; font-family: calibri; font-size: 16px; font-weight: bold; border-radius: 8px;">
+          style="width: 180px; height: 35px; border: 2px solid royalblue; background-color: #05038c; color: white; font-family: calibri; font-size: 16px; font-weight: bold; border-radius: 8px;">
       </form>
     </td>
   </tr>
 </table>
 
+<br><br><br>
 
-  <br><br><br>
-  <center>
-    <h1 style="color: #003366; font-family: Arial;">Please enter Log In details below:</h1>
-    <br>
-    <form method="POST" action="/loggedin">
-      <input name="username" placeholder="Enter Username" 
-        style="width:50%; height:40px; font-size:16px; border:2px solid #3399ff; background-color:white; border-radius:14px; padding:8px;">
-      <br><br>
-      <input name="password" type="password" placeholder="Enter Password" 
-        style="width:50%; height:40px; font-size:16px; border:2px solid #3399ff; background-color:white; border-radius:14px; padding:8px;">
-      <br><br>
-      <input type="submit" value="Log In" 
-        style="background-color:#3366cc; font-family:bahnschrift; font-size:16px; font-weight:bold; border:none; height:40px; width:50%; border-radius:40px; color:white;">
-    </form>
-  </center>
+<center>
+  <h1 style="color: #003366; font-family: Arial;">Please enter Log In details below:</h1>
+
+  <div style="margin-top: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffff; width: 50%; border: 2px dashed #3399ff; border-radius: 20px; font-family: Arial; color: #003366;">
+    <h3>🔐 Test Credentials</h3>
+    <p><b>Username:</b> <code style="background-color: #eef; padding: 2px 8px; border-radius: 6px;">admin</code></p>
+    <p><b>Password:</b> <code style="background-color: #eef; padding: 2px 8px; border-radius: 6px;">admin</code></p>
+  </div>
+  <form method="POST" action="/loggedin">
+    <input name="username" placeholder="Enter Username" 
+      style="width:50%; height:40px; font-size:16px; border:2px solid #3399ff; background-color:white; border-radius:14px; padding:8px;">
+    <br><br>
+    <input name="password" type="password" placeholder="Enter Password" 
+      style="width:50%; height:40px; font-size:16px; border:2px solid #3399ff; background-color:white; border-radius:14px; padding:8px;">
+    <br><br>
+    <input type="submit" value="Log In" 
+      style="background-color:#3366cc; font-family:bahnschrift; font-size:16px; font-weight:bold; border:none; height:40px; width:50%; border-radius:40px; color:white;">
+  </form>
+</center>
+
 </body>
 </html>
-
-
 
 """
 
@@ -2371,4 +2380,5 @@ def remad():
   return redirect("/admin")
 
 if __name__ == "__main__":
+
 	app.run(debug=True)
