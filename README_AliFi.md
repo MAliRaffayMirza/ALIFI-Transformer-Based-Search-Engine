@@ -60,7 +60,26 @@ It integrates advanced natural language processing for semantic search, an in-ho
 ## 📸 Screenshots
 
 > Add screenshots of the homepage, search results, admin panel, and user console here.
-
+> ![AliFi](static/1.png)
+> ![AliFi](static/2.png)
+> ![AliFi](static/3.png)
+> ![AliFi](static/4.png)
+> ![AliFi](static/5.png)
+> ![AliFi](static/6.png)
+> ![AliFi](static/7.png)
+> ![AliFi](static/8.png)
+> ![AliFi](static/9.png)
+> ![AliFi](static/10.png)
+> ![AliFi](static/11.png)
+> ![AliFi](static/12.png)
+> ![AliFi](static/13.png)
+> ![AliFi](static/14.png)
+> ![AliFi](static/15.png)
+> ![AliFi](static/16.png)
+> ![AliFi](static/17.png)
+> ![AliFi](static/18.png)
+> ![AliFi](static/19.png)
+> ![AliFi](static/20.png)
 ---
 
 ## 🧠 What I Learned
@@ -96,7 +115,7 @@ pip install flask requests beautifulsoup4 sentence-transformers torch
 4. Run the server:
 
 ```bash
-python app1.py
+python app.py
 ```
 
 5. Navigate to `http://127.0.0.1:5000/` in your browser.
@@ -105,7 +124,6 @@ python app1.py
 
 ## 🙏 Acknowledgments
 
-- Thanks to OpenAI’s ChatGPT for technical guidance and code suggestions during debugging.
 - Built as a self-driven project without any formal university support — purely passion and persistence.
 
 ---
