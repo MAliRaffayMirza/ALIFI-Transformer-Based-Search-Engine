@@ -5,7 +5,7 @@
 It integrates advanced natural language processing for semantic search, an in-house ad network, full user authentication, and an admin dashboard — all packed into a self-made ecosystem.
 
 > 🕒 Developed in 4–5 days with over 14 hours of work per day.  
-> 🧠 Total lines of code: 2800+ in a single Python file.  
+> 🧠 Total lines of code: 2200+ in a single Python file.  
 > 📅 Project completed: August 2025
 
 ---
