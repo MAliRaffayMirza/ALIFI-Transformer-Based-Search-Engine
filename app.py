@@ -1108,7 +1108,7 @@ def console():
 
 
 
-@app.route("/login", methods=["GET")
+@app.route("/login", methods=["GET"])
 def login():
   session.clear()
   return"""
