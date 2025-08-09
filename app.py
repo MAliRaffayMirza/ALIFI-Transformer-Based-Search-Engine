@@ -791,7 +791,7 @@ def deletelink():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AliFi Console - Delete USER Admin Panel</title>
+  <title>AliFi Delete Link - Admin Panel</title>
   <link rel="icon" type="image/x-icon" href="/fav">
   <style>
     body {
@@ -2010,7 +2010,7 @@ def totalsearches():
 <head>
 <link rel="icon" type="image/x-icon" href="/fav">
   <meta charset="UTF-8">
-  <title>Total Searches</title>
+  <title>AliFi Total Searches - Admin Panel</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -2073,7 +2073,7 @@ def reviewreports():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AliFi Console - Delete USER Admin Panel</title>
+  <title>AliFi Review Reports - Admin Panel</title>
   <link rel="icon" type="image/x-icon" href="/fav">
   <style>
     body {
@@ -2184,7 +2184,7 @@ def topsearches():
 <link rel="icon" type="image/x-icon" href="/fav">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Report Link - AliFi - Search Across The WEB</title>
+  <title>Top Searches - AliFi - Search Across The WEB</title>
 <body bgcolor="#c7fff8">
 
 
@@ -2382,3 +2382,4 @@ def remad():
 if __name__ == "__main__":
 
 	app.run(debug=True)
+
